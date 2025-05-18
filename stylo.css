@@ -1,0 +1,87 @@
+:root{
+    --cor1: #20170e;
+    --cor2: #2c2116;
+    --cor3: #938456;
+    --cor4: #938456;
+    --cor5: #f3dfa0;
+    --cor6: #d77f33;
+    --cor7: #f34e26;
+    --cor8: #eaeaea;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--cor6);
+}
+
+header{
+    background-color: var(--cor1);
+    color: var(--cor5);
+    padding: 2em;
+    max-width: 850px;
+    margin: auto;
+
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+}
+
+header > section{
+    display: flex;
+    font-size: 2em;
+}
+header h1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 1em;
+    
+}
+header div a{
+    text-decoration: none;
+    color: var(--cor1);
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    background-color: var(--cor5);
+    
+}
+header div a:hover{
+    background-color: var(--cor6)
+}
+.H1Global{
+    font-size: 2.2.em;
+    padding: 0.6em;
+}
+main{
+    max-width: 850px;
+    margin: auto;
+    background-color: #20170e;
+    padding: 2em;
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+}
+main section h1{
+    color: var(--cor4);
+    
+}
+main section p{
+    padding: 1em;
+    letter-spacing: 2px;
+}
+.container{
+    display: flex;
+    margin-bottom: 1.5em;
+}
+.escritas{
+    
+    color: var(--cor8);
+    padding: 1em;
+}
+.valores{
+    background-color: var(--cor5);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    color: var(--cor1);
+    margin: 20px
+    
+}
